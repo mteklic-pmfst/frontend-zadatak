@@ -1,0 +1,57 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 60px;
+    
+
+}
+
+
+/* .tekst{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.b{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+button{
+    border:2px solid blue;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.child{
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 5px; 
+    display: none;
+}
+
+.child img{
+    height: 300px;   
+    width: 100%; 
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+   
+}
+
+#left,#right{
+    display: inline-block;
+    padding: 10px;
+}
